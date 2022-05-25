@@ -1,5 +1,7 @@
 # ExMon
 
+### Esse projeto foi criado para servir de estudo de construção de uma api web utilizando o Phoenix Framework. O conteúdo foi criado seguindo o curso do Rafael Camarda na Udemy.
+
 To start your Phoenix server:
 
   * Install dependencies with `mix deps.get`

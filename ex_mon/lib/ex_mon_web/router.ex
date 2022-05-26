@@ -7,6 +7,8 @@ defmodule ExMonWeb.Router do
 
   scope "/api", ExMonWeb do
     pipe_through :api
+
+
   end
 
   # Enables LiveDashboard only for development
@@ -41,5 +43,6 @@ defmodule ExMonWeb.Router do
     pipe_through :api
 
     get "/", WelcomeController, :index
+    resources "/trainers", TrainersController, [:index, :show, :create, :update, :delete]
   end
 end

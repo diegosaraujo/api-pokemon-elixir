@@ -9,6 +9,7 @@ defmodule ExMonWeb.Router do
     pipe_through :api
 
     resources "/trainers", TrainersController, [:index, :show, :create, :update, :delete]
+    get "/pokemons/:name", PokemonsController, :show
 
   end
 
